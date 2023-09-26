@@ -1,0 +1,21 @@
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "username": "someusername",
+    "password": "someuserpassword"
+}
+
+###
+
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+    "username": "testuser2",
+    "password": "password1!"
+}
+
+###
+
+GET http://localhost:8080/api/stories
